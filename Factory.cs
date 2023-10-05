@@ -55,7 +55,8 @@ namespace MyFirstApp
     class Factory
     {
 
-        static void Main()
+        // changing name of main to declare an entry point
+        static void main()
         {
             Client client = new Client();
 
