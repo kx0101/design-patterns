@@ -59,7 +59,8 @@
 
     class Builder
     {
-        static void Main(string[] args)
+        // changing name of main to declare an entry point
+        static void main(string[] args)
         {
             IBuilder builder = new ConcreteBuilder();
             Director director = new Director();
