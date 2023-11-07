@@ -56,9 +56,10 @@ namespace MyFirstApp
         }
     }
 
-    class Program
+    class Observer
     {
-        static void Main(string[] args)
+        // changing name of main to declare an entry point
+        static void main(string[] args)
         {
             YoutubeChannel channel = new YoutubeChannel();
 
