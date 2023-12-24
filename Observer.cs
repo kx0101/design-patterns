@@ -64,7 +64,7 @@ namespace MyFirstApp
             YoutubeChannel channel = new YoutubeChannel();
 
             Subscriber liakos = new Subscriber("Liakos");
-            Subscriber hixx = new Subscriber("Hixx");
+            Subscriber hixx = new Subscriber("Hix");
 
             channel.AddSubscriber(liakos);
             channel.AddSubscriber(hixx);
